@@ -1,0 +1,73 @@
+body {
+    background: #efeadf url(../img/bg03.png) right 20px top 0px no-repeat;
+    // background-size: cover;
+    border-top: 10px solid;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 90%;
+    height: 134px;
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.header ul li {
+    float: left;
+    width: 15%;
+    text-align: center;
+    line-height: 134px;
+}
+
+.header ul li:nth-child(3) {
+    width: 293px;
+    height: 134px;
+    background: url(../img/bg01.png) 0 0 no-repeat;
+    margin: 0 25px;
+}
+
+.footer {
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.footer .nav {
+    width: 618px;
+    height: 25px;
+    background: url(../img/bg04.png) 0 0 no-repeat;
+    margin: 10px auto;
+}
+
+.footer .body {
+    margin: 40px auto;
+}
+
+.footer .body p {
+    float: left;
+}
+
+.footer .body p:nth-child(1) {
+    width: 373px;
+    height: 374px;
+    background: url(../img/bg06.png) 0 0 no-repeat;
+    margin-right: 20px;
+}
+
+.footer .body p:nth-child(2) {
+    width: 587px;
+    height: 217px;
+    background: url(../img/bg05.png) 0 0 no-repeat;
+}
+
+.footer .body p:nth-child(3) {
+    width: 587px;
+    font-size: 14px;
+    color: 14px;
+}
+/*一下为后面考虑*/
+
+.header .display img {
+    display: none;
+}
